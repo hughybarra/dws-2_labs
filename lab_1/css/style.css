@@ -1,0 +1,77 @@
+/* Global stuffs */
+/* Universal Selector */ 
+* {
+	color: black;
+}
+html {
+	background-color: #6D7A7D;
+	margin: 0;
+	padding: 0;
+}
+
+ul li a, ol li a {
+	list-style-type: none;
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	text-decoration: none;
+}
+
+h1, p, ul li, ol li, h2, h3, h4, h5, h5, h6 {
+	margin-left: 20px;
+}
+
+/* end global stuffs */ 
+
+body {
+	margin: 0 auto;
+	width: 900px;
+	background-color: #B1B8BA;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+p {
+	font-size: 1em;
+}
+
+/* Pseudo- Element */
+
+p:first-letter {
+	color: #575757;
+	font-size:30px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+#nav li {
+	display: inline;
+	width: 100px;
+	
+}
+
+.footer li {
+	color: #366B28;
+}
+
+.footer li span {
+	color: #24555C;
+}
+
+/* Pseudo- class --Links */
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	background: black;
+	color: white;
+}
