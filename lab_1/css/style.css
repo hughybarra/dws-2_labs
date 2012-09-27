@@ -1,17 +1,20 @@
 /* Global stuffs */
 /* Universal Selector */ 
+
 * {
-	color: black;
+	color: #62e6f4;
+	font-family: "Bank Gothic";
 }
+
 html {
-	background-color: #6D7A7D;
+	background-color: #113a49;
 	margin: 0;
 	padding: 0;
 }
 
 ul li a, ol li a {
 	list-style-type: none;
-	font-family: "Helvetica Neue";
+	font-family: "Bank Gothic";
 	font-size: 18px;
 	text-decoration: none;
 }
@@ -25,7 +28,8 @@ h1, p, ul li, ol li, h2, h3, h4, h5, h5, h6 {
 body {
 	margin: 0 auto;
 	width: 900px;
-	background-color: #B1B8BA;
+	background-color: #07212b;
+	border: 5px solid #44c4de;
 }
 
 h1 {
@@ -39,7 +43,7 @@ p {
 /* Pseudo- Element */
 
 p:first-letter {
-	color: #575757;
+	color: #f98e2f;
 	font-size:30px;
 }
 
@@ -50,11 +54,10 @@ h2 {
 #nav li {
 	display: inline;
 	width: 100px;
-	
 }
 
 .footer li {
-	color: #366B28;
+	color: #52c338;
 }
 
 .footer li span {
@@ -64,14 +67,17 @@ h2 {
 /* Pseudo- class --Links */
 
 a:link {
-	color: black;
+	color: #f98e2f;
 }
 
 a:visited {
-	color: gray;
+	color: #e34aff;
 }
 
 a:hover {
-	background: black;
-	color: white;
+	color: #62e6f4;
+}
+
+a:active {
+	color: #ed3a3a;
 }
