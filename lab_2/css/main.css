@@ -1,0 +1,85 @@
+/*  CSS resets 
+		==============================================*/
+		html {
+			 /* background-color: #433a3c; */ 
+			background-color: rgba(234, 242, 238, 100);
+			margin: 0;
+			padding: 0;
+		}
+
+		h1, h2, h3, a, ul ol {
+			font-family:  Gruppo, "Helvetica Neue", Arial, sans-serif;
+			text-shadow: 1px 1px 1px #111;
+		}
+
+		h1, h2, h3, a, ul ol, p {
+			letter-spacing: 1px;
+			word-spacing: 1px;
+			text-align: left;
+			line-height: 2em;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: normal;
+		}
+
+		a{
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+
+
+
+			/*  End CSS Resets  
+		==============================================*/
+
+			/*  Main css
+		==============================================*/
+
+		body {
+			margin: 0 auto;
+			width: 720px;
+			background-color: #D3E0DC;
+			border: 5px solid #76827B; /* boring colors */
+			box-shadow: 5px 10px 5px black;
+			opacity: .99;
+		}
+
+		h1, h2, h3 {
+			font-size: 2em;
+			float: left;
+			height: 50px;
+			width: 710px;
+			background-color: #374341;
+			margin: 0;
+			padding: 0 0 15px 10px;
+			color: #E7F0EC;
+		}
+		
+		ul li  {
+			float: right;
+			margin: 10px 80px 10px 0;
+			display: inline;
+			padding: 0 50px 0 10px;
+		}
+
+		div img {
+			clear: both;
+			border-style: solid;
+			border-color: #76827B;
+			border-width: 5px 30px;
+			width: 600px;
+			margin-left: 30px;
+		}
+
+		p {
+			font-family: "Helvetica Neue", Arial, sans-serif;
+			padding: 6px;
+			color: #6c6163;
+			text-indent: 1px;
+		}
+
+		ol li {
+			list-style-type: none;
+			margin: 10px 0;
+			color: #2e5831;
+		}
