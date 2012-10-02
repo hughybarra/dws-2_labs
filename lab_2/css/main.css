@@ -83,3 +83,7 @@
 			margin: 10px 0;
 			color: #2e5831;
 		}
+
+		#last {
+			font: italic small-caps bold 1.5em/2 arial, helvetica, sans-serif;
+		}

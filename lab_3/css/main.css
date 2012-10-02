@@ -1,0 +1,124 @@
+/* Declaring Golbal Resets and constants
+========================================= */
+
+h1, h2, h3, h4, h5, h6, p, ul,li,ol, p {
+	margin: 0;
+	padding: 0;
+}
+
+ul li, a, ol li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/* End Declarations
+========================================= */
+/* main CSS 
+========================================= */
+
+/* notes 
+
+*/
+
+html {
+	font-family: "helvetica neue";
+	background-color: #483018;
+	color: #D8F0C0;
+}
+
+body {
+	margin: 0 auto;
+	width: 960px;
+	background-color: #787860;
+	border-style: solid;
+	border: 10px 10px #fff;
+}
+
+/* header and navigation 
+================================ */
+#logo {
+	font-family: Macondo, "Helvetica Neue", Arial;
+	font-size: 3em;
+	text-align: center;
+	float: left;
+	width: 300px;
+	height: 76px;
+	padding-top: 24px;
+	background: #786030;
+}
+
+#navigation {
+	float: right;
+	width: 660px;
+	height: 102px;
+	overflow: hidden;
+}
+
+#navigation li {
+	float: left;
+	width: 25%;
+	height: 100px;
+	background-color: #786030;
+}
+
+#navigation li a {
+	font-family: Macondo, "Helvetica Neue", Arial;
+	height: 51px;
+	display: block;
+	text-align: center;
+	background-color: #786030;
+	padding-top: 45px;
+}
+
+
+
+/* LInks 
+==================================*/
+a:link {
+	color: #C0D8A8;
+}
+
+a:visited {
+	color: #D8F0C0;
+}
+
+a:hover {
+	color: #483018;
+}
+
+a:active {
+	color: #D8F0C0;
+}
+
+/* end navigation 
+===================================*/
+
+#section {
+	clear: right;
+	overflow: hidden;
+}
+
+#section p, #section h2  {
+	float: left;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
