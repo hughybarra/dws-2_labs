@@ -1,0 +1,285 @@
+/* Resets */
+/*----------------------------------*/
+
+html, body, ul, li, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	font-family: "Titillium Web", sans-serif;
+}
+ul li a {
+	text-decoration: none;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+
+/* Sexy Body Content */
+/*----------------------------------*/
+
+html {
+	background: url("../images/dark_wall.png") repeat;
+	color: #8BE0F7;;
+}
+
+body {
+	width: 960px;
+	margin: 10px auto;
+	background-color: rgba(215, 220, 245, .10);
+	border-radius: 15px;
+	box-shadow: 5px 2px #000;
+}
+
+
+/* header */ 
+/*----------------------------------*/
+
+header {
+	background-color: rgba(255, 255, 255, .60);
+	width: 960px;
+	height: 50px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+header h1 {
+	height: 50px;
+	color: white;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+}
+
+/* NAV */
+/*----------------------------------*/
+
+nav {
+	overflow: hidden;
+	float: left;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 960px;
+	height: 30px;
+}
+
+nav ul li {
+	width: 320px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	
+}
+
+nav ul li a{
+	display: block;
+	text-indent: -9999px;
+	width: 320px;
+	height: 30px;
+	background-image: url("../images/main_sprite.jpg");
+
+
+}
+
+/* Links */ 
+/*----------------------------------*/
+
+
+/* link */
+/*----------------------------------*/
+#shop a:link {
+	background-position: -320px 0;
+}
+
+#support a:link {
+	background-position: -640px 0;
+}
+
+/*visited */
+/*----------------------------------*/
+#products a:visited {
+	background-position: 0 -30px;
+}
+
+#shop a:visited {
+	background-position: -320px -30px;
+}
+
+#support a:visited {
+	background-position: -640px -30px;
+}
+
+/*hover */
+/*----------------------------------*/
+
+#products a:hover {
+	background-position: 0 -60px;
+
+}
+
+#shop a:hover {
+	background-position: -320px -60px;
+}
+
+#support a:hover {
+	background-position: -640px -60px;
+}
+
+/* Active */
+/*----------------------------------*/
+
+#products a:active {
+	background-position: 0 -90px;
+}
+
+#shop a:active {
+	background-position: -320px -90px;
+}
+
+#support a:active {
+	background-position: -640px -90px;
+}
+
+/* Main Content */
+/*----------------------------------*/
+
+
+/* left */ 
+/*-----------------------------------*/
+#cta {
+	clear: both;
+	width: 960px;
+
+}
+
+
+#cta h1 {
+	margin: 50px 0 0 10px;
+	padding-top: 15px;
+	color: white;
+}
+
+#cta img { 
+	float: right;
+	width: 500px;
+	margin: 15px ;
+}
+
+#cta p {
+	clear: left;
+	margin: 15px;
+	line-height: 18px;
+}
+
+
+.button {
+	float: right;
+	margin-right: 50px;
+	display: block;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	line-height: 30px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2F2727), to(#1a82f7));
+   	background-image: -webkit-linear-gradient(top, #2F2727, #1a82f7); 	
+   	background-image:    -moz-linear-gradient(top, #2F2727, #1a82f7);
+  	background-image:     -ms-linear-gradient(top, #2F2727, #1a82f7);
+  	background-image:      -o-linear-gradient(top, #2F2727, #1a82f7);
+}
+
+
+/* bottom left side */
+/*-----------------------------------*/
+
+#bottom_spacing {
+	margin-top: 100px;
+	overflow: hidden;
+	width: 960px;
+}
+
+#cta-2 {
+	margin-top: 100px;
+	float: left;
+	margin: 15px;
+	width: 450px;
+}
+
+#cta-2 h2 {
+	margin-top: 10px;
+	color: #8BE0F7;;
+} 
+
+/* bottom right side */
+/*-----------------------------------*/
+
+#right_side {
+	float: right;
+	margin: 15px;
+	width: 450px;
+	background-color: rgba(242, 233, 236, .1);
+	box-shadow: 1px 1px 1px #000;
+}
+
+#right_side h2 {
+	float: left;
+	margin: 0 ;
+	padding: 0;
+	color: #8BE0F7;;
+}
+
+#right_side h2 {
+	margin: 5px;
+}
+#right_side a img {
+	width: 440px;
+	height: 200px;
+	margin: 5px 5px;
+}
+
+aside {
+	float: left;
+	width: 450px;
+	margin: 15px;
+	line-height: 30px;
+}
+
+aside h2 {
+	margin: 10px 0 10px;
+	color: #8BE0F7;;
+}
+
+footer {
+	width: 960px;
+	height: 30px;
+	margin-top: 20px;
+}
+
+footer p {
+
+	text-align: center;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
