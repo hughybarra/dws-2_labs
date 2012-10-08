@@ -6,6 +6,7 @@ html, body, ul, li, h1, h2, h3, h4, h5, h6, p {
 	padding: 0;
 	font-family: "Titillium Web", sans-serif;
 }
+
 ul li a {
 	text-decoration: none;
 }
@@ -13,7 +14,6 @@ ul li a {
 ul li {
 	list-style-type: none;
 }
-
 
 /* Sexy Body Content */
 /*----------------------------------*/
@@ -45,7 +45,7 @@ header {
 
 header h1 {
 	height: 50px;
-	color: white;
+	color: #000;
 	line-height: 50px;
 	text-align: center;
 	font-size: 30px;
@@ -73,7 +73,6 @@ nav ul li {
 	line-height: 30px;
 	text-align: center;
 	float: left;
-	
 }
 
 nav ul li a{
@@ -82,8 +81,6 @@ nav ul li a{
 	width: 320px;
 	height: 30px;
 	background-image: url("../images/main_sprite.jpg");
-
-
 }
 
 /* Links */ 
@@ -154,7 +151,6 @@ nav ul li a{
 #cta {
 	clear: both;
 	width: 960px;
-
 }
 
 
@@ -237,6 +233,7 @@ nav ul li a{
 #right_side h2 {
 	margin: 5px;
 }
+
 #right_side a img {
 	width: 440px;
 	height: 200px;
