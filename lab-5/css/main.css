@@ -1,0 +1,323 @@
+/* Global Settings  */
+/*======================================*/
+
+ul, li, a, ol, p, h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	font-family: mocondo, "helvetica neue", arial, sans-serif;
+}
+
+p, ul li a {
+	font-family: "cantora one", "helvetica neue", aria, sans-serif;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* End Global Settings */ 
+/*======================================*/
+
+html {
+	background-color: #B9A388;
+}
+
+body {
+	max-width: 960px;
+	font-size: 62.5%;
+	margin: 0 auto;
+	background-color: #FFFBDD;
+	box-shadow: 2px 2px #887060;
+}
+
+/* Header */
+/*======================================*/
+
+header {
+	overflow: hidden;
+	height: 50px;
+	background-color: #506678;
+}
+
+#logo {
+	width: 9.376%; /* 90px / 960px */
+	font-size: 3em;
+	height: 50px;
+	float: left;
+	padding-top: 5px;
+	color: #FFFBDD;
+	padding-left: 1.0416666%;/* 10 / 90 */
+}
+
+/* links */
+/*======================================*/
+#navigation {
+	float: right;
+	width: 89.583333%; /* 860 / 960 */ 
+	height: 50px;
+}
+
+#navigation li {
+	float: right;
+	width: 16.7441860%;
+	
+}
+
+#navigation li a {
+	display: block;
+	padding: 15px 0 0 13px;
+	height: 100px;
+	font-size: 2em;
+	background-color: #506678;
+
+}
+
+#navigation a:link {
+	color: #FFFBDD;
+}
+
+#navigation a:visited {
+	color: #9CB3BE;
+	
+}
+
+#navigation a:hover{
+	color: #FFFBDD;
+	background-color: #9CB3BE;
+}
+
+#navigation a:active {
+	background-color: #B9A388;
+}
+
+/* End Header */
+/*======================================*/
+
+/* Main Body */
+/*======================================*/
+
+#section {
+	clear: both;
+	overflow: hidden;
+	font-size: 1.5em;
+}
+
+
+/* LEFT SIDE */ 
+/*======================================*/
+#left_section h2, #left_section p {
+	padding: 1.0416666%;
+}
+
+#left_section {
+	float: left;
+	width: 47.916666%; /* 460 / 960 */ 
+	margin: 0px 1.0416666%; /* 10 / 960px */ 
+}
+
+
+
+#gallery {
+	width: 100%; /* 462 / 960 */ 
+	border: solid 1px #fff;
+	margin: 0 5px;
+}
+
+#gallery li {
+	float: left;
+	width: 33.333333%; /* 154 / 462 */ 
+	padding: 1.0416666% 0; /* 10 / 960 */ 
+}
+
+#left_section h3, #list ul li {
+	clear: left;
+	padding: 1.0416666% 0; /* 10 / 960 */ 
+}
+/* RIGHT SIDE  */ 
+/*======================================*/
+
+#right_section h2 {
+	clear: both;
+	padding: 0 1.0416666%; /* 10 / 960 */ 
+}
+
+#right_section p {
+	padding: 1.0416666%; /* 10 / 960 */ 
+}
+
+#right_section {
+	float: right;
+	width: 48.125%; /* 462 / 960 */ 
+	margin: 0 1.0416666%  0 0.10416666%; /* 10 / 960 */ 
+}
+
+#catman {
+	padding: 1.0416666%; /* 10 / 960 */
+}
+
+
+
+@media screen and (min-width: 804px) and (max-width: 977px) {
+	body {
+		width: 99%;
+		margin: 0 auto
+	}
+}
+
+@media screen and (max-width: 803px) {
+	#right_section, #left_section {
+		float: none;
+		width: 90%;
+	}
+
+	#right_section p, #left_section p {
+		padding-left: 10%;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	#gallery {
+		float: none;
+		overflow: hidden;
+	}
+	#gallery li  {
+		width: 33.333333%; /* 154 / 462 */ 
+		height: auto;
+	}
+
+	#gallery img {
+		width: 99%;
+		margin: 10px 0.10416666%;
+	}
+
+	#left_section h3 {
+		margin-top: 30px;
+		clear: both;
+	}
+
+	#right_section #catman {	
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 684px) {
+	#right_section, #left_section {
+		float: none;
+		width: 90%;
+	}
+
+	#logo {
+		font-size: 3.5em;
+		margin-top: 0;
+		padding-top: 0;
+		line-height: 50px;
+	}
+
+}
+
+@media screen and (max-width: 621px)  {
+	header {
+		overflow: visible;
+		height: 30px;
+	}
+	#logo {
+		clear: both;
+		width: 100%;
+		float: none;
+		text-align: center;
+		background-color: #874F20;
+	}
+
+	#navigation {
+		width: 100%;
+		height: auto;
+	}
+
+	#navigation li {
+		text-align: center;		
+		width: 25%;
+
+	}
+
+	#navigation ul li a {
+		float: none;
+	}
+
+	#left_section {
+		margin-top: 80px;
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 620px) {
+	#gallery {
+		float: none;
+		overflow: hidden;
+		width: 100%;
+	}
+	#gallery li  {
+		float: none;
+		margin: 0 auto;
+		width: 50%; /* 154 / 462 */ 
+		height: auto;
+	}
+
+	#gallery img {
+		margin: 0 auto;
+		margin: 10px 0.10416666%;
+	}
+}
+
+@media screen and (max-width: 479px) {
+		p {
+			font-size: .8em;
+		}
+		body {
+			width: 100%;
+		}
+
+		img {
+			display: none;
+		}
+
+		h3 {
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		#list {
+			margin: 0 auto 15px;
+			text-align: center;
+		}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
