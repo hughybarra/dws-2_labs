@@ -22,7 +22,6 @@ a {
 	text-decoration: none;
 }
 
-
 /* End Global Settings */ 
 /*======================================*/
 
@@ -77,7 +76,6 @@ header {
 	height: 100px;
 	font-size: 2em;
 	background-color: #506678;
-
 }
 
 #navigation a:link {
@@ -85,8 +83,7 @@ header {
 }
 
 #navigation a:visited {
-	color: #9CB3BE;
-	
+	color: #9CB3BE;	
 }
 
 #navigation a:hover{
@@ -122,8 +119,6 @@ header {
 	width: 47.916666%; /* 460 / 960 */ 
 	margin: 0px 1.0416666%; /* 10 / 960px */ 
 }
-
-
 
 #gallery {
 	width: 100%; /* 462 / 960 */ 
@@ -162,8 +157,6 @@ header {
 #catman {
 	padding: 1.0416666%; /* 10 / 960 */
 }
-
-
 
 @media screen and (min-width: 804px) and (max-width: 977px) {
 	body {
@@ -300,24 +293,4 @@ header {
 			margin: 0 auto 15px;
 			text-align: center;
 		}
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
