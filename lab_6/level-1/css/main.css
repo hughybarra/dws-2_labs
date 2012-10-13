@@ -1,0 +1,56 @@
+html {
+	background: url("../images/trees.jpeg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz=background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background-color: rgba(0, 0, 0, .4);
+	float: right;
+	margin: 50px;	
+	box-shadow: 2px 2px #000;
+	color: #fff;
+}
+
+#container-inner h1 {
+	font-size: 2.5em;
+	text-align: center;
+}	
+/* global */
+/*----------------------------------------------*/
+
+label {
+	color: #255, 255, 255;
+	font-size: 1.5em;
+}
+
+/* search for */ 
+/*----------------------------------------------*/
+
+#search_for label {
+	float: left;
+	clear: left;
+	margin: 10px 10px;
+}
+
+#search_for input {
+	float: left;
+	margin: 10px 10px;
+	background-color: rgba(255, 255, 255, .4);
+}
+
+#words {
+	background-color: rgba(255, 255, 255, .4);
+	font-size: 1em;
+	margin: 10px 10px;
+	float: left;
+	color: #000;
+}
+
+#searchin {
+	background-color: rgba(255, 255, 255, .4);
+	float: left;
+}
+
