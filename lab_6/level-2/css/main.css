@@ -1,0 +1,129 @@
+/* Resets */
+/*--------*/
+
+form, label, div, input, h1, textarea {
+	margin: 0;
+	padding: 0;
+}
+
+/* body and sizing */
+/*--------*/
+
+html {
+	background-image: url("../../images/background_image.png");
+}
+
+body {
+	width: 500px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2em;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	background-color: #E0DCDE;
+}
+
+#container-inner {
+	background-color: #70A85B;
+}
+
+/* placement */
+/*----------*/
+
+textarea, input {
+	margin: 10px;
+	float: left;
+}
+
+#user_name label { /* your name */
+	float: left;
+	margin: 10px;
+	text-align: right;
+	width: 150px;
+}
+
+
+#email_info label { /* email address */
+	float:left;
+	margin: 10px;
+	clear: left;
+	text-align: right;
+	width: 150px;
+}
+
+
+#feedback_info label { /* feedback text */
+	float: left;
+	margin: 10px;
+	clear: left;
+	text-align: right;
+	width: 150px;
+}
+
+.controls {
+	width: 450px;
+}
+#submit {
+	background-color: #73646A;
+	color: #FFFFFF;
+	float: right;
+	clear: left;
+
+}
+
+
+
+
+/* pseudo classes */
+/*----------*/
+#name:hover, #email:hover, #feedback:hover {
+	background-color: #70A85B;
+}
+
+#name:focus, #email:focus, #feedback:focus {
+	background-color: #EDBC1A;
+}
+
+
+
+#submit:hover {
+	background-color: #70A85B;
+}
+
+#submit:active {
+	background-color: #EDBC1A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

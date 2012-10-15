@@ -15,41 +15,42 @@
 			<h1>Advanced Search</h1>
 
 			<form action="#" method="get">
+				<fieldset>
+					<!-- Search for: -->
+					<div id="search_for">
 
-			<fieldset>
-			<!-- Search for: -->
-			<div id="search_for">
-
-				<label for="words">Search for</label>
-				<select id="words">
-				  <option>All of these words</option>
-				  <option>Any of these words</option>
-				</select>
+						<label for="words">Search for</label>
+						<select id="words">
+						  <option>All of these words</option>
+						  <option>Any of these words</option>
+						</select>
+						
+						
+						<label for="keywords">Keywords</label>
+						<div id="input_class">
+						<input type="text" name="keywords" value="enter text here" class="test" />
+						</div>
+					</div>
 				
-				<label for="keywords">Keywords</label><input type="text" name="keywords" value="" id="keywords" />
+					<!-- Search in -->
+					<div id="search_in">
+						<label for="searchin">Search in</label>
+						
+						<select id="searchin">
+						  <option>People</option>
+						  <option>Places</option>
+						  <option>Sports</option>
+						</select>
+					</div>
+							
+					<!-- Controls -->
+					<div class="controls">
+						<input id="submit" name="submit" type="submit" value="Search" />
+					</div>
+				</fieldset>
+			</form>
 			
-			</div>
-		
-		<!-- Search in -->
-		<div>
-			<label for="searchin">Search in</label>
-			
-			<select id="searchin">
-			  <option>People</option>
-			  <option>Places</option>
-			  <option>Sports</option>
-			</select>
-		</div>
-				
-				
-				<!-- Controls -->
-				<div class="controls">
-					<input id="submit" name="submit" type="submit" value="Search" />
-				</div>
-			</fieldset>
-		</form>
-			
-	</div></div>	<!-- /Container -->
+		</div></div>	<!-- /Container -->
 	
 </body>
 </html>

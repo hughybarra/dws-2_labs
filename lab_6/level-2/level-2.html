@@ -6,10 +6,10 @@
     <title>
       Fancy Form Design: Feedback
     </title>
-    
+    <link rel="stylesheet" href="css/main.css"/>
 		
   </head>
-  <body id="feedback">
+  <body>
     <!-- Container -->
     <div id="container">
       <div id="container-inner">
@@ -17,23 +17,35 @@
           Feedback
         </h1>
         <form action="#" method="get">
+
           <fieldset>
             <!-- Details -->
-            <div>
-              <label for="words">Your name</label> <input type="text" name="name" value="" id="name" />
+            <div id="user_name">
+
+              <label for="words">Your name</label> 
+              <input type="text" name="name" value="" id="name" />
+
             </div><!-- Email -->
-            <div>
+            <div id="email_info">
+
               <label for="email">Your email address</label> <input type="text" name="email" value="" id="email" />
+
             </div><!-- Feedback -->
-            <div>
+            <div id="feedback_info">
+
               <label for="feedback">Your feedback</label> 
+
               <textarea cols="30" rows="6" id="feedback">
               </textarea>
+
             </div><!-- Controls -->
             <div class="controls">
+
               <input id="submit" name="submit" type="submit" value="Submit feedback" />
+
             </div>
           </fieldset>
+
         </form>
       </div>
     </div><!-- /Container -->

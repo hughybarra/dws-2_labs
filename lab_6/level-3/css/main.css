@@ -1,0 +1,190 @@
+/* Resets */
+/*-------------*/
+h1, p, label, input, fieldset, legend, select, ul, li, a {
+	margin: 0;
+	padding: 0;
+}
+
+/* setting main widths */
+/*-------------*/
+html {
+	background-image: url("../../images/bedge_grunge.png");
+}
+
+body {
+	width: 960px;
+	margin: 10px auto;
+	box-shadow: 2px 2px #8C898B;
+}
+
+#container {
+	background-color: #DBE6D8;
+	overflow: hidden;
+}
+
+label {
+	float: left;
+	margin: 10px;
+	clear: left;
+	width: 150px;
+	text-align: right;
+}
+
+input {
+	float: left;
+	margin: 10px;
+	width: 150px;
+}
+
+/* main */
+/*-------------*/
+
+h1 {
+	font-size: 2em;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.log-in { /* Already a member */
+	font-size: 1.5em;
+	color: #615F60;	
+	text-align: center;
+}
+
+.log-in a { /* link login */
+	text-decoration: none;
+	color: #3B859C;
+}
+
+.introduction {
+	line-height: 50px;
+	font-size: 1em;
+	color: #615F60;
+	text-align: center;
+}
+
+.profile-link-prefix {
+	float: right;
+	font-size: 3em;
+	margin: 50px 100px 0;
+	color: #3B859C;
+}
+
+#section-dob {
+	clear: both;
+	float: left;
+}
+
+fieldset legend {
+	font-size: 1.5em;
+}
+
+#dates label {
+	float: left;
+	margin: 10px;
+}
+
+#dob_month {
+	float: left;
+	margin: 10px;
+}
+
+#dob_day {
+	float: left;
+	margin: 10px;
+}
+
+#dob_year {
+	float: left;
+	margin: 10px;
+}
+
+.note {
+	font-size: 1em;
+}
+
+#field-agree-tos {
+	width: 350px;
+	overflow: hidden;
+}
+
+#field-agree-tos ul label{
+	float: left;
+	clear: both;
+	width: 330px;
+	display: inline;
+}
+
+#field-agree-tos  a {
+	display: inline;
+}
+#field-agree-tos input {
+	float: right;
+
+}
+
+#submit {
+	clear: both;
+	float: right;
+	height: 50px;
+}
+
+
+/* pseudo classes */
+/*-------------*/
+
+
+input:focus, select:focus {
+	background-color: #DBDB88;
+}
+
+input:hover {
+	background-color: #2EF2F2;
+}
+
+#submit:hover {
+	background-color: #29B6E6;
+	color: #E63329;
+}
+
+a:hover {
+	color: #4AE0F7;
+}
+
+a:active {
+	color: #A82E1E;
+}
+
+#submit:active {
+	background-color: #A82E1E;
+	color: #F5EEED;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

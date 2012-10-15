@@ -1,5 +1,5 @@
 html {
-	background: url("../images/trees.jpeg") no-repeat center center fixed;
+	background: url("../../images/trees.jpeg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz=background-size: cover;
 	-o-background-size: cover;
@@ -7,26 +7,27 @@ html {
 }
 
 #container {
-	background-color: rgba(0, 0, 0, .4);
+	background-color: rgba(255, 255, 255, .7);
 	float: right;
 	margin: 50px;	
 	box-shadow: 2px 2px #000;
-	color: #fff;
+	/*color: #fff;*/
 }
 
 #container-inner h1 {
 	font-size: 2.5em;
 	text-align: center;
 }	
+
 /* global */
 /*----------------------------------------------*/
 
 label {
-	color: #255, 255, 255;
+	color: rgb(0, 0, 0,);
 	font-size: 1.5em;
 }
 
-/* search for */ 
+/* main content  */ 
 /*----------------------------------------------*/
 
 #search_for label {
@@ -42,9 +43,9 @@ label {
 }
 
 #words {
-	background-color: rgba(255, 255, 255, .4);
+	background-color: rgba(245, 245, 245, .4);
 	font-size: 1em;
-	margin: 10px 10px;
+	margin: 16px 11px;
 	float: left;
 	color: #000;
 }
@@ -52,5 +53,69 @@ label {
 #searchin {
 	background-color: rgba(255, 255, 255, .4);
 	float: left;
+	margin-left: 16px;
 }
+
+#searchin {
+	margin-top: 16px;
+}
+
+#submit {
+	margin: 10px 0 0 15px;
+	background-color: #ABA4A7;
+	color: #000000;
+}
+
+#search_in label {
+	float: left;
+	margin-top: 10px;
+}
+
+#search_for .test {
+	margin-top: 13px;
+}
+
+
+
+/* pseudo classes */ 
+/*----------------------------------------------*/
+
+.controls #submit:active {
+	background-color: #18732A;
+	color: #FFFFFF;
+}
+
+#search_for .test:focus {
+	background-color: #C9CF61;
+}
+
+#search_for #words:focus {
+	background-color: #C9CF61;
+}
+
+#search_in #searchin:focus {
+	background-color: #C9CF61;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

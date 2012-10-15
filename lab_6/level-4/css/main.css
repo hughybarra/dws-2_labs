@@ -1,0 +1,91 @@
+/* resets */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* main widths */
+
+html {
+	background-image: url("../../images/bedge_grunge.png");
+}
+
+body {
+	width: 980px;
+	margin: 20px auto;
+	background-color: rgba(204, 224, 227, .8);
+}
+
+/* main content */ 
+
+h1 {
+	font-size: 2em;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+label {
+	float: left;
+	margin: 10px;
+	width: 150px;
+	text-align: right;
+}
+
+input {
+	float; left;
+	margin: 10px;
+}
+
+.sex label {
+	float: left;
+}
+
+.sex input {
+	float: left;
+	margin-top: 12px;
+}
+
+.dates-birth {
+	float: left;
+	margin: 10px;
+}
+
+.note {
+	clear: left;
+	float: left;
+	width: 960px;
+	text-align: center;
+}
+
+#about_you {
+	margin: 10px;
+	float: left;
+}
+
+.controls {
+	float: right;
+	margin: 20px;
+}
+
+/* pseudo classes */
+
+input:focus {
+	background-color: #B8F2CD;
+}
+
+select:focus, textarea:focus  {
+	background-color: #B8F2CD;
+}
+
+input:hover, #submit:hover, textarea:focus  {
+	background-color: #A4D9F5;
+}
+
+#submit:active {
+	background-color: #DE6464;
+	color: #FFFFFF;
+}
+
+

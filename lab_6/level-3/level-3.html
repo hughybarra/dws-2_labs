@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 	<title>Fancy Form Design: Sign Up</title>
-	
+	<link rel="stylesheet" href="css/main.css"
 	<!-- CSS -->
 	
 	
@@ -12,21 +12,23 @@
 </head>
 <body id="sign-up">
 	<!-- Container -->	
-	<div id="container"><div id="container-inner">
+	<div id="container">
+		<div id="container-inner">
 
 		<h1>Sign Up</h1>
 		<p class="log-in">Already a member? <a href="#">Log in</a>.</p>
+
 		<form action="#" method="get">
 			<fieldset>
 				<p class="introduction">Hi there! We're excited to have you as a part of our community. To get started, please create an account. <strong>All fields are required</strong></p>
 				<!-- Email -->
-				<div>
+				<div id="your_email">
 					<label for="email">Your email address</label>
 					<input type="text" name="email" id="email" />
 				</div>
 				
 				<!-- Password -->
-				<div>
+				<div id="password_info">
 					<label for="password">Create Password</label>
 					<input type="password" name="password" id="password" />
 				</div>
@@ -45,10 +47,10 @@
 				</div>
 				
 				<!-- DOB -->
-				<fieldset id="section-dob">
+				<fieldset class="section-dob">
 					<legend><span>Birth date</span></legend>
 					<!-- Month -->
-					<div>
+					<div id="dates">
 						<label for="dob_month">Month</label>
 						<select name="dob_month" id="dob_month">
 							<option> - Month - </option>
@@ -68,7 +70,7 @@
 					</div>
 					
 					<!-- Day -->
-					<div>
+					<div class="section-dob">
 						<label for="dob_day">Day</label>
 						<select name="dob_day" id="dob_day">
 							<option> - Day - </option>
@@ -107,7 +109,7 @@
 					</div>
 					
 					<!-- Year -->
-					<div>
+					<div class="section-dob">
 						<label for="dob_year">Year</label>
 						<select name="dob_year" id="dob_year">
 							<option> - Year - </option>
